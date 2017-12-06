@@ -63,6 +63,7 @@ var OPTIONS = {
     // cognitoPoolId: undefined,
   },
   invokedFunctionArn: arn(REGION, ACCOUNT_ID, FN_NAME),
+  'x-amzn-trace-id': process.env._X_AMZN_TRACE_ID,
 }
 
 // Some weird spelling error in the source?
